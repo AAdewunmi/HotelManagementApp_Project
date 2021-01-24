@@ -1,1 +1,1 @@
-# Hostel Management App Project
+# Student Hostel Management App Project
