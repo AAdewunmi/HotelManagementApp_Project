@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 
 public class TenantList {
-    private ArrayList<Tenant> tenantArrayList;
+    private final ArrayList<Tenant> tenantArrayList;
     public final int MAX;
 
     /**
@@ -40,7 +40,7 @@ public class TenantList {
     /**
      * Removes the tenant in the given room number
      * @param roomIn The room number of the tenant to remove
-     * @return Returns true if the tenat is removed successfully of false otherwise
+     * @return Returns true if the tenant is removed successfully of false otherwise
      */
 
     public boolean removeTenant(int roomIn){
@@ -88,7 +88,7 @@ public class TenantList {
     }
 
     /**
-     * Reports on whether oor not the list is empty
+     * Reports on whether or not the list is empty
      * @return Returns true if the list is empty and false otherwise
      */
 

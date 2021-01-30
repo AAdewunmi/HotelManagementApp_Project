@@ -8,9 +8,9 @@
 
 public class Tenant {
 
-    private String name;
-    private int room;
-    private PaymentList payments;
+    private final String name;
+    private final int room;
+    private final PaymentList payments;
     public static final int MAX = 12;
 
     /**

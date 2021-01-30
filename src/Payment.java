@@ -8,8 +8,8 @@
 
 public class Payment {
 
-    private String month;
-    private double amount;
+    private final String month;
+    private final double amount;
 
     /**
     Constructor initialises the payment month and the amount paid

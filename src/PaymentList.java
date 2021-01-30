@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class PaymentList {
     // attributes
-    private ArrayList<Payment> pList;
+    private final ArrayList<Payment> pList;
     public final int MAX;
 
     /**
