@@ -1,3 +1,11 @@
+/**
+ * TenantFileHandler Class: In order to make it possible to keep a
+ * permanent record of the applications data, there is a special class to use called TenantFileHandler
+ * @author Adrian Adewunmi
+ * @version 22nd March 2021
+ * Reproduced from "Java in Two Semesters: Featuring JavaFX. Springer" (Case Study - Part 1 / Case Study - Part 2).
+ * Charatan, Q., & Kans, A. (2019). Java in Two Semesters: Featuring JavaFX. Springer.
+ */
 
 import java.io.*;
 
