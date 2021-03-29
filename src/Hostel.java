@@ -11,10 +11,14 @@ import javafx.stage.Stage;
 
 import java.text.NumberFormat;
 
-/**GUI for the Hostel application
- *@author Charatan and Kans
- *@version 7th April 2018
+/**
+ * Hostel Class: A JavaFX User Interface (UI) for the Student Hostel Application.
+ * @author Adrian Adewunmi
+ * @version 22nd March 2021
+ * Reproduced from "Java in Two Semesters: Featuring JavaFX. Springer" (Case Study - Part 1 / Case Study - Part 2).
+ * Charatan, Q., & Kans, A. (2019). Java in Two Semesters: Featuring JavaFX. Springer.
  */
+
 public class Hostel extends Application
 {
     // the attributes
